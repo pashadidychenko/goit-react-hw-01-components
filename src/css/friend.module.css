@@ -1,0 +1,36 @@
+.friendList {
+  list-style: disc;
+}
+
+.item {
+  list-style: disc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+}
+
+.name {
+  width: 50px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.avatar {
+  border-radius: 5%;
+}
+
+.statusRed {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.statusGreen {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
