@@ -1,16 +1,16 @@
 import React, { Fragment } from "react";
 // Task 1
 import user from "./data/user.json";
-import Profile from "./task_1";
+import Profile from "./Profile.js";
 // Task 2
 import statisticalData from "./data/statistical-data.json";
-import Statistics from "./task_2.js";
+import Statistics from "./Statistics.js";
 // Task 3
 import friends from "./data/friends.json";
-import FriendList from "./task_3.js";
+import FriendList from "./Friendlist.js";
 // Task 4
 import transactions from "./data/transactions.json";
-import TransactionHistory from "./task_4";
+import TransactionHistory from "./Transaction.js";
 
 function App() {
   return (
